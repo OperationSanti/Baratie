@@ -1,0 +1,48 @@
+body{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+}
+
+.main{
+	width: 100%;
+}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: black;
+	height: 80px;
+	line-height: 80px;
+	display: flex;
+	justify-content: space-between;
+	z-index: 999;
+  }
+.logo a{
+	font-size: 30px;
+	color: Brown;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color: white#fff;
+	font-size:17px;
+	transition: 0.5s all ease;
+}
+ul{
+	margin: 0px;
+}
+ul li{
+	float: left;
+	padding: 0px 10px;
+	list-style: none;
+}
+ul li a:hover{
+		color: red;
+}
+
+
+
+	
